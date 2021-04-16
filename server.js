@@ -11,13 +11,13 @@ const app = new Vue({
 express.get("/",(req,res)=>{
     renderer.renderToString(app,(err,html)=>{
         if(err){
-            return res.state(500).end("服务器内部运行错误!")
+            return res.status(500).end("服务器内部运行错误!")
         }
-        res.send(`
+        res.end(`
             <!DOCTYPE html>
             <html lang="en">
                 <head>
-                    <meta chatset="UTF-8">
+                    <meta charset="UTF-8">
                     <title> Demo </title>
                 </head>
                 <body>
