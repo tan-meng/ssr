@@ -8,12 +8,12 @@ npm install
 # serve with hot reload at localhost:8088
 npm run serve
 
-#  bulid for production with minification
+# bulid for production with minification
 npm run build
 ```
 
 ### 启动成功后
- >> 浏览器直接访问: localhost:8088
+ > 浏览器直接访问: localhost:8088
 
 安装后结构:
 ```
