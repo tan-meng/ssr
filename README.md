@@ -22,4 +22,5 @@ npm run build
 |--package.json                         //项目基本信息
 |--README.md                            //项目说明
 |--server.js                            //配置文件
+|--.gitignore                           //git上传时需要忽略掉的文件
 ```

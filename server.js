@@ -1,10 +1,12 @@
 const Vue = require("vue")
 const express = require("express")()
 const renderer = require("vue-server-renderer").createRenderer()
+// const fs = require("fs")
 
 // 创建vue实例
 const app = new Vue({
    template:`<div style="color:red;"> 服务器端渲染(SSR) </div>` 
+//    template: fs.readFileSync('./src/template.html',"utf-8")  //批量模板文件
 })
 
 // 响应请求()
