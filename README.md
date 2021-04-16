@@ -15,7 +15,7 @@ npm run build
 ### 启动成功后
  > 浏览器直接访问: localhost:8088
 
-安装后结构:
+### 安装后结构:
 ```
 .
 |--node_modules                         //项目依赖包
