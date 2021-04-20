@@ -29,6 +29,7 @@ npm run build
 
 ### table demo
 > to show a table
+
 | name | age | sex | skill |
 | --- | --- | --- | --- |
 | tom | 17 | male | [basketball](https://www.baidu.com) |
