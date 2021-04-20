@@ -24,3 +24,13 @@ npm run build
 |--server.js                            //配置文件
 |--.gitignore                           //git上传时需要忽略掉的文件
 ```
+
+## 
+
+### table demo
+> to show a table
+| name | age | sex | skill |
+| --- | --- | --- | --- |
+| tom | 17 | male | [basketball](https://www.baidu.com) |
+| piter | 23 | male | [football]() |
+
