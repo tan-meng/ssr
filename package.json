@@ -1,6 +1,6 @@
 {
     "name": "ssr",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "about ssr\u001b[D\u001b[D\u001b[Dvue-ssr server-render\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[ssr\u001b[C\u001b[C\u001b[C\u001b[()\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[C\u001b[C)\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dvue-server \u001b[D-render)",
     "main": "index.js",
     "scripts": {
