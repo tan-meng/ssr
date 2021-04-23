@@ -1,18 +1,25 @@
 const Vue = require("vue")
 const express = require("express")()
 const renderer = require("vue-server-renderer").createRenderer()
-// const fs = require("fs")
+const data = require('./mock.js')
+    // const fs = require("fs")
+
 
 // 创建vue实例
 const app = new Vue({
-   template:`<div style="color:red;"> 服务器端渲染(SSR) </div>` 
-//    template: fs.readFileSync('./src/template.html',"utf-8")  //批量模板文件
+    data: {
+        return () {
+            data
+        }
+    },
+    template: `<div style="color:red;"> 服务器端渲染(SSR)</div>`
+        //    template: fs.readFileSync('./src/template.html',"utf-8")  //批量模板文件
 })
 
 // 响应请求()
-express.get("/",(req,res)=>{
-    renderer.renderToString(app,(err,html)=>{
-        if(err){
+express.get("/", (req, res) => {
+    renderer.renderToString(app, (err, html) => {
+        if (err) {
             return res.status(500).end("服务器内部运行错误!")
         }
         res.end(`
@@ -31,7 +38,7 @@ express.get("/",(req,res)=>{
 })
 
 // 服务器监听
-express.listen("8088",()=>{
+express.listen("8088", () => {
     console.log("恭喜,跑通了")
 })
 

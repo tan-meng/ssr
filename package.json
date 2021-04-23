@@ -1,20 +1,30 @@
 {
-  "name": "ssr",
-  "version": "1.0.0",
-  "description": "about ssr\u001b[D\u001b[D\u001b[Dvue-ssr server-render\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[ssr\u001b[C\u001b[C\u001b[C\u001b[()\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[C\u001b[C)\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dvue-server \u001b[D-render)",
-  "main": "index.js",
-  "scripts": {
-    "serve": "node server.js"
-  },
-  "keywords": [
-    "ssr",
-    "server-render"
-  ],
-  "author": "tanmeng",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "vue": "^2.6.12",
-    "vue-server-renderer": "^2.6.12"
-  }
+    "name": "ssr",
+    "version": "1.0.0",
+    "description": "about ssr\u001b[D\u001b[D\u001b[Dvue-ssr server-render\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[ssr\u001b[C\u001b[C\u001b[C\u001b[()\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[C\u001b[C)\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dvue-server \u001b[D-render)",
+    "main": "index.js",
+    "scripts": {
+        "serve": "node server.js",
+        "start": "npm run serve"
+    },
+    "keywords": [
+        "ssr",
+        "server-render"
+    ],
+    "author": "tanmeng",
+    "license": "ISC",
+    "dependencies": {
+        "chalk": "^4.1.1",
+        "commander": "^7.2.0",
+        "download-git-repo": "^3.0.2",
+        "express": "^4.17.1",
+        "fs": "0.0.1-security",
+        "handlebars": "^4.7.7",
+        "inquirer": "^8.0.0",
+        "log-symbols": "^5.0.0",
+        "ora": "^5.4.0",
+        "template-react-cli": "^1.0.22",
+        "vue": "^2.6.12",
+        "vue-server-renderer": "^2.6.12"
+    }
 }
