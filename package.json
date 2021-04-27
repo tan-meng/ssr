@@ -1,5 +1,5 @@
 {
-    "name": "ssr",
+    "name": "npm_ssr",
     "version": "1.0.1",
     "description": "about ssr\u001b[D\u001b[D\u001b[Dvue-ssr server-render\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[ssr\u001b[C\u001b[C\u001b[C\u001b[()\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[D\u001b[C\u001b[C)\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Dvue-server \u001b[D-render)",
     "main": "index.js",
@@ -21,7 +21,7 @@
         "fs": "0.0.1-security",
         "handlebars": "^4.7.7",
         "inquirer": "^8.0.0",
-        "log-symbols": "^5.0.0",
+        "log-symbols": "^2.2.0",
         "ora": "^5.4.0",
         "template-react-cli": "^1.0.22",
         "vue": "^2.6.12",
