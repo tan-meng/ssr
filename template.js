@@ -5,7 +5,7 @@ import './{{template}}.styl';
 import {withRouter} from 'react-router-dom'
 
 @withRouter
- class {{template}} extends React.Component {
+class {{template}} extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
